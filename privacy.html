@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Unrepost: Repost Remover</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- One policy for both apps, iPhone and Android: both link here (AppLinks).
+     Written once where the apps behave the same; "on iPhone" / "on Android" only where
+     they differ. Keep it in step with ios/Resources/PrivacyInfo.xcprivacy, App Store
+     Connect → App Privacy, Play Console → App content → Data safety, and both apps'
+     AppAnalytics: anything new that leaves the device, on either app, belongs in all of
+     them. See legal/README.md. -->
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Unrepost: Repost Remover &middot; Last updated 4 November 2026</p>
+</header>
+
+<nav><a href="index.html">Legal</a><a href="terms.html">Terms &amp; Conditions</a></nav>
+
+<p>This policy covers Unrepost: Repost Remover for iPhone and for Android.</p>
+
+<h2>The short version</h2>
+<p>
+  Unrepost has no server and no account system. There is nothing to sign up for with us.
+  Your repost list, your removal history and your settings are created on your device
+  and stay there. We cannot see them, because they are never sent anywhere.
+</p>
+<p>
+  To find and fix problems, the app sends <strong>crash reports</strong> and <strong>anonymous
+  usage statistics</strong> to Google&rsquo;s Firebase. They never include your TikTok handle,
+  which videos you reposted or which ones you removed, and they are not linked to your name,
+  email or TikTok account. See <a href="#diagnostics">Crash reports and usage statistics</a>.
+</p>
+<p>
+  We do not sell or share personal data, we do not use advertising software, and we do not
+  track you across other apps or websites. On Android, the app does not collect the advertising
+  ID, and the permissions that would allow it are removed from the app at build time.
+</p>
+
+<h2>How signing in to TikTok works</h2>
+<p>
+  To list your reposts, the app needs to be signed in as you. It does that by showing you
+  <strong>TikTok&rsquo;s own sign-in page</strong> inside an embedded browser window. You type your
+  credentials into TikTok, over an encrypted connection, on a page we do not read.
+</p>
+<p>
+  <strong>We never see, receive or store your TikTok password.</strong> What results is a standard
+  session cookie, held only in the embedded browser&rsquo;s own storage on your device (on
+  iPhone, the app&rsquo;s local website storage; on Android, the app&rsquo;s WebView storage) —
+  the same way a browser holds one. It is never copied to us or to anyone else. On Android it is
+  also excluded from the automatic backup, so it is not copied to Google Drive and does not travel
+  to a new phone: you sign in again there. Signing out from the account screen erases it, and so
+  does deleting the app.
+</p>
+<p>
+  The app reads only what your own profile already shows: the reposts on it, their creators,
+  captions and thumbnails. It does not post, follow, message, or read anything private.
+</p>
+
+<h2>What is stored, and where</h2>
+<table>
+  <tr><th>Information</th><th>Where it is kept</th><th>Leaves your device?</th></tr>
+  <tr><td>TikTok session cookie</td><td>The embedded browser&rsquo;s storage on your device (on Android, excluded from backup)</td><td>No</td></tr>
+  <tr><td>Your handle and display name</td><td>On device</td><td>No</td></tr>
+  <tr><td>The list of reposts found by a scan</td><td>On device</td><td>No</td></tr>
+  <tr><td>Record of reposts you removed</td><td>On device</td><td>No</td></tr>
+  <tr><td>Settings, reminder schedule and chosen language</td><td>On device</td><td>No (the reminder&rsquo;s settings are counted in the anonymous usage statistics below)</td></tr>
+  <tr><td>Daily removal counter</td><td>On device (on iPhone, in the Keychain)</td><td>No</td></tr>
+  <tr><td>A removal history you export</td><td>A CSV you choose where to send</td><td>Only if you share it</td></tr>
+  <tr><td>Subscription status</td><td>The store you bought from (Apple or Google Play) and RevenueCat</td><td>Yes — see below</td></tr>
+  <tr><td>Crash reports</td><td>Google Firebase (Crashlytics)</td><td>Yes — see below</td></tr>
+  <tr><td>Anonymous usage statistics</td><td>Google Firebase (Analytics)</td><td>Yes — see below</td></tr>
+  <tr><td>Your TikTok password</td><td>Nowhere. We never receive it.</td><td>&mdash;</td></tr>
+</table>
+<p>
+  On Android, everything in the &ldquo;on device&rdquo; rows is included in Android&rsquo;s automatic
+  backup if you have it switched on, which is what lets your history and your remaining daily
+  allowance survive a reinstall. That backup is between you and Google; we have no access to it.
+</p>
+
+<h2>Purchases</h2>
+<p>
+  Subscriptions are sold by the store you installed the app from — Apple on iPhone, Google Play on
+  Android — and processed through your account with that store. We never see your payment details.
+</p>
+<p>
+  We use <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat</a> to check
+  whether a subscription is active. RevenueCat receives purchase transaction information and a
+  randomly generated identifier for your installation. That identifier is not your name, your
+  email or your TikTok handle, and it is not linked to the contents of your profile.
+  The store&rsquo;s handling of your purchase is covered by its own privacy policy:
+  <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s</a> or
+  <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s</a>.
+  On Android, you can view or cancel a subscription at any time in the Google Play app, under
+  Payments and subscriptions.
+</p>
+
+<h2 id="diagnostics">Crash reports and usage statistics</h2>
+<p>
+  The app uses two parts of <a href="https://firebase.google.com/support/privacy" rel="noopener">Google&rsquo;s
+  Firebase</a>:
+</p>
+<ul>
+  <li><strong>Crashlytics.</strong> If the app crashes, it sends a crash report: where in the
+      app&rsquo;s code the crash happened, the app and operating system (iOS or Android) versions,
+      and the device model. We use these to fix the crash.</li>
+  <li><strong>Analytics.</strong> The app sends anonymous usage statistics, such as which screens
+      are opened, how long the app is used for, whether signing in, a scan and a removal run
+      completed, how many reposts a scan found or a run removed (as a range, such as
+      &ldquo;10&ndash;49&rdquo;, never the exact number), when a subscription is bought (the plan
+      and its price, never your payment details), the settings of a clean-up reminder when you save one
+      (whether it covers reposts or likes, daily or weekly, and the hour), the app and operating system versions, the device
+      model, and an approximate region that Google works out from the internet connection. We use
+      these to understand which parts of the app work and which need improving.</li>
+</ul>
+<p>
+  Both are tied only to a random identifier that Firebase creates for this installation of the
+  app. It is not your name, your email, your TikTok handle or the advertising identifier — the
+  app does not collect the advertising identifier at all — and deleting the app discards it.
+  Neither includes your TikTok session, your repost list, your removal history or anything else
+  you see in the app. We do not use this information for advertising, and it is not used to
+  track you. Google processes it on our behalf under
+  <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s privacy policy</a>.
+</p>
+
+<h2>Notifications</h2>
+<p>
+  If you allow notifications, the app uses them for two things, both created on your device: to
+  tell you how a removal run is going or how it ended while the app is in the background, and to
+  remind you of a clean-up you scheduled. There are no marketing notifications, and nothing is
+  pushed to the app from a server — we do not have one.
+</p>
+
+<h2>Removing your data</h2>
+<ul>
+  <li><strong>Sign out</strong> from the account screen to erase the TikTok session.</li>
+  <li><strong>Erase the removal history</strong> at any time in Settings. You can export it as a
+      CSV first if you want to keep a copy.</li>
+  <li><strong>Delete (uninstall) the app</strong> to remove everything it stored on your device.
+      On Android, if you have backup switched on, also remove the app&rsquo;s backup in the
+      Google One app under Device backups.</li>
+</ul>
+<p>
+  We hold no account or profile data about you. Crash reports and usage statistics are tied only
+  to the random installation identifier described above, and deleting the app starts a new
+  one. If you would like a subscription record, crash reports or usage statistics removed,
+  contact us and we will pass the request to RevenueCat or Google.
+</p>
+
+<h2>Removals are permanent</h2>
+<p>
+  Removing a repost is carried out on your TikTok account at your instruction, and TikTok
+  provides no way to undo it. The app keeps a local record of what was removed, including the
+  video link, so that you have one. That record is only on your device.
+</p>
+
+<h2>Children</h2>
+<p>
+  Unrepost is not directed at children under 13, and we do not knowingly collect information
+  from them.
+</p>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes, the revised version will be posted here with a new date. Material
+  changes will also be noted in the app&rsquo;s release notes.
+</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:admin@fidexpass.com">admin@fidexpass.com</a></p>
+
+<footer>
+  Unrepost is an independent tool and is not affiliated with, authorised or endorsed by
+  TikTok, ByteDance, Apple, Google, or any of their subsidiaries.
+</footer>
+</body>
+</html>
